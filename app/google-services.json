@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "961626976713",
+    "project_id": "shifoxonaa",
+    "storage_bucket": "shifoxonaa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961626976713:android:3ea7f80e880563b913b818",
+        "android_client_info": {
+          "package_name": "com.example.shifoxona"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvGIDVOsknlBdaw5_akJOVXRDwNoYl1ek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

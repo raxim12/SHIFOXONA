@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:background="@drawable/edit_text_background"
+        android:fontFamily="@font/urbanist_medium"
+        android:hint="Bemor Ism-Familyasi"
+        android:inputType="textPersonName"
+        android:padding="14dp"
+        android:textColor="@color/text_color"
+        android:textColorHint="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/doctorNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:background="@drawable/edit_text_background"
+        android:fontFamily="@font/urbanist_medium"
+        android:hint="Shifokor Ism-Familyasi"
+        android:inputType="textPersonName"
+        android:padding="14dp"
+        android:textColor="@color/text_color"
+        android:textColorHint="@color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/addPatientButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="#007BFF"
+        android:fontFamily="@font/urbanist_bold"
+        android:text="Bemorni qo'shish"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

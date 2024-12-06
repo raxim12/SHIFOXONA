@@ -1,0 +1,50 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:outlineSpotShadowColor="#007BFF"
+    android:backgroundTint="@color/white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Bemor Ism-Familyasi -->
+        <TextView
+            android:fontFamily="@font/urbanist_medium"
+            android:id="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bemor Ismi"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+
+        <!-- Shifokor Ism-Familyasi -->
+        <TextView
+            android:fontFamily="@font/urbanist_medium"
+            android:textColor="#212529"
+            android:id="@+id/doctorNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Shifokor: Dr. Ism Familya"
+            android:textSize="14sp" />
+
+        <!-- Kelgan vaqti -->
+        <TextView
+            android:fontFamily="@font/urbanist_medium"
+            android:textColor="#212529"
+            android:id="@+id/arrivalTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Kelgan vaqti: 12:30 PM, 01-12-2024"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
